@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><title>Island Runner</title>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#0b2a3f"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png"><meta name="mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><title>Island Runner</title>
 <style>
 :root{--g:#ffd34e}*{box-sizing:border-box;-webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;height:100%;overflow:hidden;background:#8fd3f4;font-family:'Trebuchet MS',system-ui,sans-serif;color:#fff;touch-action:none}
@@ -1064,4 +1064,4 @@ const _vs=VD.step;VD.step=function(dt){if(!CD.rev)return _vs.call(this,dt);const
 console.info('[bridges] applied');
 })();
 </script>
-</body></html>
+<script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}))</script></body></html>
